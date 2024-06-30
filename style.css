@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(0, 195, 255);
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/random');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(70, 87, 156, 0.523); /* Background color with opacity */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(165, 168, 184, 0.781);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white; /* Change heading color to white */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0095ff; /* Blue */
+    color: white;
+    border: solid;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #50ff7f; /* Lighter shade of blue */
+}
+
+.message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.message a {
+    color: #ffa500; /* Orange */
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
